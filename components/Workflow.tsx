@@ -2,39 +2,39 @@ export default function Workflow() {
   const steps = [
     {
       number: "1",
-      title: "Lead Comes In",
+      title: "Student Inquiry",
       description: "From any channel: web form, WhatsApp, social media, or phone",
-      protection: "No lead is missed or ignored"
+      protection: "No student inquiry goes unnoticed"
     },
     {
       number: "2",
       title: "Instant AI Response",
       description: "Automatic reply within seconds, 24/7, even outside business hours",
-      protection: "Prevents leads from going cold"
+      protection: "Capture student attention before they contact competitors"
     },
     {
       number: "3",
       title: "Smart Qualification",
-      description: "AI asks the right questions to understand needs and intent",
-      protection: "Saves time by filtering unqualified inquiries"
+      description: "AI asks the right questions to understand study goals and intent",
+      protection: "Filter serious students from casual browsers"
     },
     {
       number: "4",
-      title: "Automatic Booking",
+      title: "Consultation Booking",
       description: "Calendar link sent instantly with available consultation slots",
-      protection: "Converts interest into scheduled meetings"
+      protection: "Convert interest into scheduled appointments immediately"
     },
     {
       number: "5",
       title: "Follow-Up Reminders",
       description: "Smart automated reminders to reduce no-shows and re-engage",
-      protection: "Reduces no-shows and keeps pipeline moving"
+      protection: "Keep prospects engaged until consultation day"
     },
     {
       number: "6",
-      title: "Booked Consultation",
-      description: "Qualified lead shows up prepared for a productive meeting",
-      protection: "Maximizes revenue per sales hour"
+      title: "Enrollment-Ready Call",
+      description: "Qualified student shows up prepared for a productive consultation",
+      protection: "Maximize enrollment conversion on every call"
     }
   ]
 
@@ -44,10 +44,10 @@ export default function Workflow() {
         <div className="max-w-6xl mx-auto">
           {/* Section Title */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
-            How AppointmentOS Protects Your Pipeline
+            How AppointmentOS Protects Your Enrollment Pipeline
           </h2>
           <p className="text-center text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
-            A proven workflow that transforms every incoming lead into a structured booking opportunity
+            A proven workflow that transforms every student inquiry into a structured enrollment opportunity
           </p>
           
           {/* Workflow Steps - Desktop Horizontal */}

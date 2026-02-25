@@ -1,10 +1,10 @@
 export default function Results() {
   const results = [
-    "Faster response times",
+    "Faster student response times",
     "More structured consultations",
-    "Reduced lead loss",
+    "Reduced lost inquiries",
     "Better calendar organization",
-    "More predictable bookings"
+    "More predictable enrollment calls"
   ]
 
   return (

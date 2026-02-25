@@ -1,8 +1,8 @@
 import Hero from '@/components/Hero'
-import HiddenRevenueLeak from '@/components/HiddenRevenueLeak'
-import CostOfDoingNothing from '@/components/CostOfDoingNothing'
+import TrustStrip from '@/components/TrustStrip'
+import Problem from '@/components/Problem'
 import Workflow from '@/components/Workflow'
-import ExampleScenario from '@/components/ExampleScenario'
+import EducationScenario from '@/components/EducationScenario'
 import Demo from '@/components/Demo'
 import Results from '@/components/Results'
 import WhoItsFor from '@/components/WhoItsFor'
@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
-      <HiddenRevenueLeak />
-      <CostOfDoingNothing />
+      <TrustStrip />
+      <Problem />
       <Workflow />
-      <ExampleScenario />
+      <EducationScenario />
       <Demo />
       <Results />
       <WhoItsFor />
