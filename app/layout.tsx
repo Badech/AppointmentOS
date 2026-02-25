@@ -11,23 +11,23 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'AppointmentOS - AI-Powered Appointment & Enrollment Workflow System',
-  description: 'Convert more leads into booked consultations automatically. A structured AI-powered workflow that ensures every lead gets an instant response, qualification, booking link, and smart follow-up.',
-  keywords: ['appointment scheduling', 'lead conversion', 'AI automation', 'booking system', 'consultation booking'],
+  title: 'AppointmentOS - Stop Losing High-Intent Leads Within 5 Minutes',
+  description: 'Stop losing revenue to slow follow-up. AppointmentOS installs a structured AI-powered workflow that instantly responds, qualifies, and books consultations — so no serious prospect goes cold.',
+  keywords: ['appointment scheduling', 'lead conversion', 'AI automation', 'booking system', 'consultation booking', 'lead response time', 'revenue protection'],
   authors: [{ name: 'Bader Echchalh' }],
   creator: 'Bader Echchalh',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://appointmentos.com',
-    title: 'AppointmentOS - AI-Powered Appointment & Enrollment Workflow System',
-    description: 'Convert more leads into booked consultations automatically. A structured AI-powered workflow that ensures every lead gets an instant response, qualification, booking link, and smart follow-up.',
+    title: 'AppointmentOS - Stop Losing High-Intent Leads Within 5 Minutes',
+    description: 'Stop losing revenue to slow follow-up. Install a structured AI workflow that protects your pipeline and converts more leads into booked consultations.',
     siteName: 'AppointmentOS',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AppointmentOS - AI-Powered Appointment & Enrollment Workflow System',
-    description: 'Convert more leads into booked consultations automatically.',
+    title: 'AppointmentOS - Stop Losing High-Intent Leads Within 5 Minutes',
+    description: 'Stop losing revenue to slow follow-up. Install a structured AI workflow that protects your pipeline.',
   },
   robots: {
     index: true,

@@ -3,32 +3,38 @@ export default function Workflow() {
     {
       number: "1",
       title: "Lead Comes In",
-      description: "From any channel: web form, WhatsApp, social media, or phone"
+      description: "From any channel: web form, WhatsApp, social media, or phone",
+      protection: "No lead is missed or ignored"
     },
     {
       number: "2",
       title: "Instant AI Response",
-      description: "Automatic reply within seconds, 24/7, even outside business hours"
+      description: "Automatic reply within seconds, 24/7, even outside business hours",
+      protection: "Prevents leads from going cold"
     },
     {
       number: "3",
       title: "Smart Qualification",
-      description: "AI asks the right questions to understand needs and intent"
+      description: "AI asks the right questions to understand needs and intent",
+      protection: "Saves time by filtering unqualified inquiries"
     },
     {
       number: "4",
       title: "Automatic Booking",
-      description: "Calendar link sent instantly with available consultation slots"
+      description: "Calendar link sent instantly with available consultation slots",
+      protection: "Converts interest into scheduled meetings"
     },
     {
       number: "5",
       title: "Follow-Up Reminders",
-      description: "Smart automated reminders to reduce no-shows and re-engage"
+      description: "Smart automated reminders to reduce no-shows and re-engage",
+      protection: "Reduces no-shows and keeps pipeline moving"
     },
     {
       number: "6",
       title: "Booked Consultation",
-      description: "Qualified lead shows up prepared for a productive meeting"
+      description: "Qualified lead shows up prepared for a productive meeting",
+      protection: "Maximizes revenue per sales hour"
     }
   ]
 
@@ -38,7 +44,7 @@ export default function Workflow() {
         <div className="max-w-6xl mx-auto">
           {/* Section Title */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
-            How <span className="gradient-text">AppointmentOS</span> Works
+            How AppointmentOS Protects Your Pipeline
           </h2>
           <p className="text-center text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
             A proven workflow that transforms every incoming lead into a structured booking opportunity
@@ -56,8 +62,11 @@ export default function Workflow() {
                     <h3 className="font-semibold text-gray-900 mb-2 text-sm">
                       {step.title}
                     </h3>
-                    <p className="text-gray-600 text-xs flex-grow">
+                    <p className="text-gray-600 text-xs flex-grow mb-2">
                       {step.description}
+                    </p>
+                    <p className="text-blue-600 text-xs font-medium italic">
+                      → {step.protection}
                     </p>
                   </div>
                 </div>
@@ -86,8 +95,11 @@ export default function Workflow() {
                       <h3 className="font-semibold text-gray-900 mb-2">
                         {step.title}
                       </h3>
-                      <p className="text-gray-600 text-sm">
+                      <p className="text-gray-600 text-sm mb-2">
                         {step.description}
+                      </p>
+                      <p className="text-blue-600 text-xs font-medium italic">
+                        → {step.protection}
                       </p>
                     </div>
                   </div>

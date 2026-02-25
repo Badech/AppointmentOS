@@ -5,12 +5,12 @@ export default function FinalCTA() {
         <div className="max-w-4xl mx-auto text-center">
           {/* Headline */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-            Stop Losing Leads.
+            Stop Losing Revenue to Slow Follow-Up.
           </h2>
           
           {/* Subheadline */}
           <p className="text-xl sm:text-2xl md:text-3xl mb-10 text-blue-100">
-            Install a structured appointment workflow in days, not months.
+            Install a structured appointment workflow in days — not months.
           </p>
           
           {/* CTA Buttons */}

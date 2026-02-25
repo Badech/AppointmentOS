@@ -7,18 +7,13 @@ export default function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Headline */}
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight mb-6">
-            <span className="gradient-text">AppointmentOS</span>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-8 text-gray-900 leading-tight">
+            Stop Losing High-Intent Leads Within the First 5 Minutes.
           </h1>
           
           {/* Subheadline */}
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900 mb-6">
-            Convert more leads into booked consultations — automatically.
-          </h2>
-          
-          {/* Supporting Text */}
-          <p className="text-lg sm:text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-            A structured AI-powered workflow that ensures every lead gets an instant response, qualification, booking link, and smart follow-up.
+          <p className="text-xl sm:text-2xl md:text-3xl text-gray-700 mb-10 max-w-4xl mx-auto leading-relaxed">
+            AppointmentOS installs a structured AI-powered workflow that instantly responds, qualifies, and books consultations — so no serious prospect goes cold.
           </p>
           
           {/* CTA Buttons */}
