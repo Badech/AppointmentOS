@@ -6,8 +6,8 @@ export default function WhatsIncluded() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
-      title: "Instant automated lead reply",
-      description: "Every lead gets a response in seconds, not hours"
+      title: "Instant automated student reply",
+      description: "Every student gets a response in seconds, not hours"
     },
     {
       icon: (
@@ -15,8 +15,8 @@ export default function WhatsIncluded() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
         </svg>
       ),
-      title: "Custom qualification workflow",
-      description: "Tailored questions designed for your specific business"
+      title: "Structured qualification workflow",
+      description: "Tailored questions designed for your agency"
     },
     {
       icon: (
@@ -24,7 +24,7 @@ export default function WhatsIncluded() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Calendar integration",
+      title: "Consultation booking integration",
       description: "Syncs with Google Calendar, Outlook, and other platforms"
     },
     {
@@ -33,8 +33,8 @@ export default function WhatsIncluded() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
         </svg>
       ),
-      title: "Smart follow-up reminders",
-      description: "Automated re-engagement for leads who don't book immediately"
+      title: "Smart reminder & follow-up messages",
+      description: "Automated re-engagement for students who don't book immediately"
     },
     {
       icon: (
@@ -43,8 +43,8 @@ export default function WhatsIncluded() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
       ),
-      title: "Workflow setup & optimization",
-      description: "We configure everything to match your business process"
+      title: "Workflow setup and optimization",
+      description: "We configure everything to match your agency's process"
     }
   ]
 
@@ -54,11 +54,8 @@ export default function WhatsIncluded() {
         <div className="max-w-4xl mx-auto">
           {/* Section Title */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
-            What You <span className="gradient-text">Get</span>
+            What AppointmentOS Installs <span className="gradient-text">for Your Agency</span>
           </h2>
-          <p className="text-center text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
-            Everything you need to automate your appointment booking workflow
-          </p>
           
           {/* Features List */}
           <div className="space-y-6">

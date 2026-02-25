@@ -1,8 +1,8 @@
 export default function TrustStrip() {
   const industries = [
     "Study Abroad Agencies",
-    "Immigration Consultants",
-    "Education Advisors"
+    "International Student Recruiters",
+    "Education Consultants"
   ]
 
   return (

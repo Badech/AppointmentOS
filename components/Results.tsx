@@ -1,10 +1,10 @@
 export default function Results() {
   const results = [
     "Faster student response times",
-    "More structured consultations",
+    "More structured consultation calls",
     "Reduced lost inquiries",
-    "Better calendar organization",
-    "More predictable enrollment calls"
+    "Better team efficiency",
+    "More predictable enrollment pipeline"
   ]
 
   return (
@@ -12,12 +12,9 @@ export default function Results() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Section Title */}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
-            Typical Results Businesses <span className="gradient-text">Experience</span>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12">
+            Typical Results <span className="gradient-text">Agencies Experience</span>
           </h2>
-          <p className="text-center text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
-            When you implement a structured appointment workflow
-          </p>
           
           {/* Results List */}
           <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8 md:p-12">

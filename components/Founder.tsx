@@ -12,7 +12,7 @@ export default function Founder() {
               
               {/* Description */}
               <p className="text-gray-600 text-lg leading-relaxed">
-                AppointmentOS was created to help service-based businesses eliminate manual lead handling and implement structured, automated booking workflows.
+                AppointmentOS was created to help study abroad agencies eliminate manual lead handling and implement a structured enrollment workflow designed for student-driven businesses.
               </p>
             </div>
           </div>

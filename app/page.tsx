@@ -1,9 +1,9 @@
 import Hero from '@/components/Hero'
 import TrustStrip from '@/components/TrustStrip'
 import Problem from '@/components/Problem'
+import Positioning from '@/components/Positioning'
 import Workflow from '@/components/Workflow'
 import EducationScenario from '@/components/EducationScenario'
-import Demo from '@/components/Demo'
 import Results from '@/components/Results'
 import WhoItsFor from '@/components/WhoItsFor'
 import WhatsIncluded from '@/components/WhatsIncluded'
@@ -16,9 +16,9 @@ export default function Home() {
       <Hero />
       <TrustStrip />
       <Problem />
+      <Positioning />
       <Workflow />
       <EducationScenario />
-      <Demo />
       <Results />
       <WhoItsFor />
       <WhatsIncluded />

@@ -11,8 +11,8 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'AppointmentOS - Stop Losing Student Leads Within 5 Minutes',
-  description: 'Built for education agencies and enrollment consultants. AppointmentOS installs a structured AI-powered enrollment workflow that instantly responds, qualifies, and books consultations — so no serious student inquiry goes cold.',
+  title: 'AppointmentOS for Study Abroad Agencies - Stop Losing Student Leads',
+  description: 'Built for Study Abroad Agencies. AppointmentOS installs a structured AI-powered enrollment workflow that instantly responds, qualifies, and books consultations — so serious student inquiries never go cold.',
   keywords: ['appointment scheduling', 'lead conversion', 'AI automation', 'booking system', 'consultation booking', 'lead response time', 'revenue protection'],
   authors: [{ name: 'Bader Echchalh' }],
   creator: 'Bader Echchalh',
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://appointmentos.com',
-    title: 'AppointmentOS - Stop Losing Student Leads Within 5 Minutes',
-    description: 'Built for education agencies. Install a structured AI enrollment workflow that protects your pipeline and converts more student inquiries into booked consultations.',
+    title: 'AppointmentOS for Study Abroad Agencies',
+    description: 'Built for Study Abroad Agencies. Install a structured AI enrollment workflow that protects your pipeline and converts more student inquiries into booked consultations.',
     siteName: 'AppointmentOS',
   },
   twitter: {

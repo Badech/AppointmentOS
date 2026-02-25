@@ -3,38 +3,32 @@ export default function Workflow() {
     {
       number: "1",
       title: "Student Inquiry",
-      description: "From any channel: web form, WhatsApp, social media, or phone",
-      protection: "No student inquiry goes unnoticed"
+      description: "A student submits a form, sends a WhatsApp message, or contacts your agency"
     },
     {
       number: "2",
       title: "Instant AI Response",
-      description: "Automatic reply within seconds, 24/7, even outside business hours",
-      protection: "Capture student attention before they contact competitors"
+      description: "The system replies within seconds — not hours"
     },
     {
       number: "3",
       title: "Smart Qualification",
-      description: "AI asks the right questions to understand study goals and intent",
-      protection: "Filter serious students from casual browsers"
+      description: "Students answer structured questions before booking"
     },
     {
       number: "4",
       title: "Consultation Booking",
-      description: "Calendar link sent instantly with available consultation slots",
-      protection: "Convert interest into scheduled appointments immediately"
+      description: "Only serious prospects reach your calendar"
     },
     {
       number: "5",
-      title: "Follow-Up Reminders",
-      description: "Smart automated reminders to reduce no-shows and re-engage",
-      protection: "Keep prospects engaged until consultation day"
+      title: "Automated Follow-Up",
+      description: "Reminders reduce no-shows and improve attendance"
     },
     {
       number: "6",
       title: "Enrollment-Ready Call",
-      description: "Qualified student shows up prepared for a productive consultation",
-      protection: "Maximize enrollment conversion on every call"
+      description: "Your team speaks only with prepared, qualified students"
     }
   ]
 
@@ -62,11 +56,8 @@ export default function Workflow() {
                     <h3 className="font-semibold text-gray-900 mb-2 text-sm">
                       {step.title}
                     </h3>
-                    <p className="text-gray-600 text-xs flex-grow mb-2">
+                    <p className="text-gray-600 text-xs flex-grow">
                       {step.description}
-                    </p>
-                    <p className="text-blue-600 text-xs font-medium italic">
-                      → {step.protection}
                     </p>
                   </div>
                 </div>
@@ -95,11 +86,8 @@ export default function Workflow() {
                       <h3 className="font-semibold text-gray-900 mb-2">
                         {step.title}
                       </h3>
-                      <p className="text-gray-600 text-sm mb-2">
+                      <p className="text-gray-600 text-sm">
                         {step.description}
-                      </p>
-                      <p className="text-blue-600 text-xs font-medium italic">
-                        → {step.protection}
                       </p>
                     </div>
                   </div>

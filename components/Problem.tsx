@@ -53,8 +53,12 @@ export default function Problem() {
         <div className="max-w-6xl mx-auto">
           {/* Section Title */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
-            Why Education Agencies <span className="gradient-text">Quietly Lose Enrollments</span>
+            Why Study Abroad Agencies <span className="gradient-text">Quietly Lose Enrollments</span>
           </h2>
+          
+          <p className="text-center text-gray-600 text-lg mb-12 max-w-3xl mx-auto">
+            Most student inquiries are high-intent — but they disappear within minutes if not handled properly.
+          </p>
           
           {/* Problem Cards Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-12">
